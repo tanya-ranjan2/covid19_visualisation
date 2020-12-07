@@ -1,6 +1,6 @@
 library(readr)
 library(readxl)
-coronavirus = read.csv("data/coronavirus1.csv", stringsAsFactors = F) [,-1]
+coronavirus = read.csv("data/coronavirus2.csv", stringsAsFactors = F) 
 population = read.csv("data/population.csv",stringsAsFactors = F)[,-1]
 dataset <- read_excel("data/dataset.xlsx")
 covid <- read_csv("data/file3.csv")
@@ -38,7 +38,7 @@ choices_for_plot <- colnames(covid)
 
 #### New data
 # 
-# df1 <- read.csv(file = "https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv", stringsAsFactors = F)
+# coronavirus <- read.csv(file = "https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv", stringsAsFactors = F)
 # write.csv(df1,"data/coronavirus1.csv")
 
 hideAllBut = function(divList, butNdx) {

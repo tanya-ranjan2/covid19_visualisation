@@ -555,7 +555,7 @@ output$totalCount <- renderCountup({
   x = 5644
     opts <- list(useEasing = TRUE,
                useGrouping = TRUE,
-               prefix = "Total patients data avilable: "
+               prefix = "Total patients data available: "
   )
   countup(
     x,
