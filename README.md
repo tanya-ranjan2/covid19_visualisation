@@ -1,4 +1,4 @@
-# covid19_visualisation
+# covid19_visualisation and study its spectrum
 R-shiny Dashboard
 
 
