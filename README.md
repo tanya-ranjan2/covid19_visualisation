@@ -8,9 +8,9 @@ It has affected many spectrum :
   2. Daily life as Job and Business
   3. Global temperature (main reason due to lockdown for a certain period in the whole world )
   
-1. The dataset reflects the complexity of decision making during routine clinical care, as opposed to what happens in a more controlled research setting, and data sparsity is, therefore, expected.
-2. The other dataset is taken and to allow users to compare the spread of covid-19 in more than two countries at one go in both graphical as well as tabular way.
-3. The data visualization methods employed on laboratory test data to make it easier for multidisciplinary teams to collaborate around COVID-19 real-world data.
+  
+- The dataset reflects the complexity of decision making during routine clinical care, as opposed to what happens in a more controlled research setting, and data sparsity is, therefore, expected.
+- The other dataset is taken and to allow users to compare the spread of covid-19 in more than two countries at one go in both graphical as well as tabular way.
 
 DataSet selection :
 
@@ -18,3 +18,10 @@ DataSet selection :
   2. Population data is taken from WHO website.
   3. Dataset of coronavirus cases is taken from github
   https://raw.githubusercontent.com/ulklc/covid19-timeseries/master/countryReport/raw/rawReport.csv
+
+
+Note : 
+The R-shiny Application is built and deployed on Shinyapps.io
+
+Url -https://tanya-dashboard.shinyapps.io/covid19_visualisation/_w_5a7ef579/
+
